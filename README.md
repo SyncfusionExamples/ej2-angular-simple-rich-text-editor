@@ -9,7 +9,8 @@ To run this application, you need to first clone the `ej2-angular-simple-rich-te
 To do so, open the command prompt and run the below commands one after the other.
 
 ```
-git clone https://github.com/SyncfusionSamples/ej2-angular-simple-rich-text-editor 
+git clone https://github.com/SyncfusionSamples/ej2-angular-simple-rich-text-editor.git
+cd ej2-angular-simple-rich-text-editor
 ```
 
 ## Installing
