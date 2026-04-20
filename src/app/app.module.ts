@@ -2,14 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {RichTextEditorModule,ToolbarService, LinkService, ImageService, HtmlEditorService} from '@syncfusion/ej2-ng-richtexteditor';
+import { RichTextEditorModule, ToolbarService, LinkService, ImageService, HtmlEditorService } from '@syncfusion/ej2-angular-richtexteditor';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
-    BrowserModule, RichTextEditorModule
+    BrowserModule, RichTextEditorModule, AppComponent
   ],
   providers: [ToolbarService, LinkService, ImageService, HtmlEditorService],
   bootstrap: [AppComponent]
